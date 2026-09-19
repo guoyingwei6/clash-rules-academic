@@ -1,0 +1,9 @@
+# NAME: Google-Extra 谷歌服务补充
+# AUTHOR: Yingwei Guo (@guoyingwei6)
+# REPO: https://github.com/guoyingwei6/clash-rules-academic
+# UPDATED: 2026-09-19
+# PURPOSE: 谷歌服务补充域名（上游规则未覆盖项）
+# SUGGESTED-TARGET: 代理（谷歌服务组）
+
+payload:
+  - DOMAIN-SUFFIX,antigravity-unleash.goog

@@ -1,0 +1,37 @@
+# NAME: AI-Extra AI 服务补充域名
+# AUTHOR: Yingwei Guo (@guoyingwei6)
+# REPO: https://github.com/guoyingwei6/clash-rules-academic
+# UPDATED: 2026-09-19
+# PURPOSE: 补充 blackmatrix7/OpenAI 未覆盖的 AI 域名
+# SUGGESTED-TARGET: 代理（AI 组）
+
+payload:
+  # ======= Anthropic / Claude ========
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,clau.de
+  - DOMAIN-SUFFIX,claudeusercontent.com
+
+  # ======= OpenAI ========
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+
+  # ======= Google AI ========
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,gemini.googleapis.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,ai.google.dev
+
+  # ======= xAI / Grok ========
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+
+  # ======= 其他 AI 服务 ========
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,minimaxi.com
+  - DOMAIN-SUFFIX,minimax.chat
+  - DOMAIN-SUFFIX,duckduckgo.com

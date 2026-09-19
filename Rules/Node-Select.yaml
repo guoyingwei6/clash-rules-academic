@@ -1,0 +1,11 @@
+# NAME: Node-Select 个性化杂项（走手动节点选择）
+# AUTHOR: Yingwei Guo (@guoyingwei6)
+# REPO: https://github.com/guoyingwei6/clash-rules-academic
+# UPDATED: 2026-09-19
+# PURPOSE: 无法明确归类、需要手动控制走代理或直连的站点
+# SUGGESTED-TARGET: 节点选择（select 组）
+
+payload:
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,islide.cc
+  - DOMAIN-SUFFIX,xiaoyuzhoufm.com

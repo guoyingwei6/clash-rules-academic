@@ -1,0 +1,54 @@
+# NAME: Academic 学术期刊与数据库直连
+# AUTHOR: Yingwei Guo (@guoyingwei6)
+# REPO: https://github.com/guoyingwei6/clash-rules-academic
+# UPDATED: 2026-09-19
+# PURPOSE: 学术网站直连，确保机构 IP 出口，自动下载全文 PDF
+# SUGGESTED-TARGET: DIRECT
+
+payload:
+  # ======= 学术数据库与预印本 ========
+  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
+  - DOMAIN-SUFFIX,pubmed.ncbi.nlm.nih.gov
+  - DOMAIN-SUFFIX,arxiv.org
+  - DOMAIN-SUFFIX,biorxiv.org
+  - DOMAIN-SUFFIX,medrxiv.org
+
+  # ======= 主流出版商 ========
+  - DOMAIN-SUFFIX,sciencedirect.com
+  - DOMAIN-SUFFIX,elsevier.com
+  - DOMAIN-SUFFIX,oup.com
+  - DOMAIN-SUFFIX,academic.oup.com
+  - DOMAIN-SUFFIX,science.org
+  - DOMAIN-SUFFIX,sciencemag.org
+  - DOMAIN-SUFFIX,springer.com
+  - DOMAIN-SUFFIX,link.springer.com
+  - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,onlinelibrary.wiley.com
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,acm.org
+  - DOMAIN-SUFFIX,jstor.org
+  - DOMAIN-SUFFIX,sagepub.com
+  - DOMAIN-SUFFIX,tandfonline.com
+  - DOMAIN-SUFFIX,mdpi.com
+  - DOMAIN-SUFFIX,acs.org
+  - DOMAIN-SUFFIX,rsc.org
+  - DOMAIN-SUFFIX,plos.org
+  - DOMAIN-SUFFIX,cell.com
+  - DOMAIN-SUFFIX,pnas.org
+
+  # ======= 引文与检索服务 ========
+  - DOMAIN-SUFFIX,researchgate.net
+  - DOMAIN-SUFFIX,semanticscholar.org
+  - DOMAIN-SUFFIX,webofscience.com
+  - DOMAIN-SUFFIX,scopus.com
+  - DOMAIN-SUFFIX,doi.org
+  - DOMAIN-SUFFIX,crossref.org
+  - DOMAIN-SUFFIX,unpaywall.org
+
+  # ======= 中文数据库 ========
+  - DOMAIN-SUFFIX,cnki.net
+  - DOMAIN-SUFFIX,wanfangdata.com.cn
+  - DOMAIN-SUFFIX,cqvip.com
+
+  # ======= 国内 AI 服务 ========
+  - DOMAIN-SUFFIX,deepseek.com
