@@ -9,3 +9,14 @@ payload:
   - DOMAIN-SUFFIX,cloudflare.com
   - DOMAIN-SUFFIX,islide.cc
   - DOMAIN-SUFFIX,xiaoyuzhoufm.com
+  - DOMAIN-SUFFIX,updf.com
+
+  # ======= Google 系杂项（走节点选择而非谷歌服务组） ========
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN,v2rayse.com
+
+  # ======= 邮件（如需独立分组可另建 Mail.yaml） ========
+  # gmail.com / googlemail.com 暂留在脚本内，如需规则集化请拆分
