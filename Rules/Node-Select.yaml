@@ -18,5 +18,6 @@ payload:
   - DOMAIN-SUFFIX,github.io
   - DOMAIN,v2rayse.com
 
-  # ======= 邮件（如需独立分组可另建 Mail.yaml） ========
-  # gmail.com / googlemail.com 暂留在脚本内，如需规则集化请拆分
+  # ======= 邮件（Gmail 系，如需独立组可再拆 Mail.yaml） ========
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,googlemail.com
